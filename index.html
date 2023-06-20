@@ -35,19 +35,37 @@
         .example {
             margin-top: 20px;
         }
+
+        .index {
+            margin-bottom: 30px;
+        }
+
+        .index li {
+            display: inline;
+            margin-right: 10px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Python Library Documentation</h1>
 
-    <h2>Function Name</h2>
-    <p>Description: [Function description goes here]</p>
+    <div class="index">
+        <h2>Index</h2>
+        <ul>
+            <li><a href="#function1">Function 1</a></li>
+            <li><a href="#function2">Function 2</a></li>
+            <!-- Add more function links as needed -->
+        </ul>
+    </div>
+
+    <h2 id="function1">Function 1</h2>
+    <p>Description: [Function 1 description goes here]</p>
 
     <div class="section">
         <h3>Usage</h3>
         <div class="code">
-            <pre><code>[Function usage example]</code></pre>
+            <pre><code>[Function 1 usage example]</code></pre>
         </div>
     </div>
 
@@ -64,24 +82,24 @@
 
     <div class="section">
         <h3>Details</h3>
-        <p>[Additional details about the function]</p>
+        <p>[Additional details about Function 1]</p>
     </div>
 
     <div class="section">
         <h3>Value</h3>
-        <p>[Description of the value returned by the function]</p>
+        <p>[Description of the value returned by Function 1]</p>
     </div>
 
     <div class="section">
         <h3>Example</h3>
         <div class="code">
-            <pre><code>[Function example usage]</code></pre>
+            <pre><code>[Function 1 example usage]</code></pre>
         </div>
     </div>
 
     <div class="section">
         <h3>Author(s)</h3>
-        <p>[Author(s) of the function]</p>
+        <p>[Author(s) of Function 1]</p>
     </div>
 
     <div class="section">
@@ -92,6 +110,11 @@
             <!-- Add more references if needed -->
         </ul>
     </div>
+
+    <h2 id="function2">Function 2</h2>
+    <p>Description: [Function 2 description goes here]</p>
+
+    <!-- Repeat the above sections for Function 2 and other functions -->
 
 </body>
 
